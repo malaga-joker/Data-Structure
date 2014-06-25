@@ -44,7 +44,7 @@ int V<T>::NumberOfItems() const {
 template <class T>
 void V<T>::AddLast(const T &newItem)  {
 	if (number_of_items == size)
-		Resize(2 * size);
+	    Resize(2 * size);
 	array[number_of_items++] = newItem;
 }
 
